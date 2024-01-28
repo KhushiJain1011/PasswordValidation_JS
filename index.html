@@ -12,7 +12,7 @@
 
     <div class="container">
         <h2>Login Form</h2>
-        <form action="" onsubmit="return validateForm()">
+        <form action="">
             <label for="usrname">Username</label>
             <input type="text" id="usrname" name="usrname">
             <p id="userError" class="error"></p>
@@ -20,7 +20,7 @@
             <label for="psw">Password</label>
             <input type="password" id="psw" name="psw">
             <p id="passError" class="error"></p>
-            <input type="submit" value="Submit">
+            <button id="btn" type="button" onclick="validatePassword()">Submit</button>
         </form>
     </div>
 
